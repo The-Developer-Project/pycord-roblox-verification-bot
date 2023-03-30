@@ -7,6 +7,14 @@ roblox verification bot
   
   2. On replit, click secrets and add the following:
   
-      discordkey = your discord bot token
+      `discordkey` = your discord bot token
       
-      roauth = make a string of random numbers and letters (can be anything you want)
+      `roauth` = make a string of random numbers and letters (can be anything you want)
+      
+  3. Create a new game on roblox studio
+  
+  4. Create a new `RemoteEvent` and name it `Verify`
+
+  5. Copy Script.lua and add it under `game.ServerScriptService`
+  
+  6. Copy Verify.lua and add it under game.StarterPlayer.StarterPlayerScripts
