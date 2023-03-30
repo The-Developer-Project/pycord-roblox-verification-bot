@@ -15,6 +15,13 @@ roblox verification bot
   
   4. Create a new `RemoteEvent` and name it `Verify`
 
-  5. Copy Script.lua and add it under `game.ServerScriptService`
+  5. Copy `Script.lua` and add it under `game.ServerScriptService`
   
-  6. Copy Verify.lua and add it under game.StarterPlayer.StarterPlayerScripts
+  6. Copy `Verify.lua` and add it under `game.StarterPlayer.StarterPlayerScripts`
+  
+  7. Open `Script.lua` and change the following:
+  
+      
+      Set `url` to the url provided after you ran then python script and replit opened webview. it should end in `.repl.co`
+      
+      Set
