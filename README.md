@@ -8,3 +8,5 @@ roblox verification bot
   2. On replit, click secrets and add the following:
   
       discordkey = your discord bot token
+      
+      roauth = make a string of random numbers and letters (can be anything you want)
