@@ -24,4 +24,7 @@ roblox verification bot
       
       Set `url` to the url provided after you ran then python script and replit opened webview. it should end in `.repl.co`
       
-      Set
+      Replace `random string` with the string you set the `roauth` secret to on replit
+      
+      
+  If you need help creating the bot application on discord here is how: https://discordpy.readthedocs.io/en/stable/discord.html
