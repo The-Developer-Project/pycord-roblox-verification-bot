@@ -4,7 +4,7 @@ game.Players.PlayerAdded:Connect(function(player)
 	player.Chatted:Connect(function(msg)
 		if msg == "/link" then
 			local tnum = tostring(math.random(1,10000000))
-			local token = tnum .. '+' .. player.Name
+			local token = tnum .. '+' .. player.UserId .. '+'..'random string'
 			HttpService:PostAsync(url, token)
 			game.ReplicatedStorage.Verify:FireClient(player, tnum)
 		end
