@@ -7,4 +7,4 @@ roblox verification bot
   
   2. On replit, click secrets and add the following:
   
-      discord_keu
+      discordkey = your discord bot token
